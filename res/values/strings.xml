@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExamenAndroid</string>
+    <string name="dialog_quantite">Saisissez une quantité en </string>
+    <string name="btn_save">Enregistrer le repas </string>
+    <string name="tv_alim">Liste des aliments </string>
+    <string name="tv_repas">Votre repas </string>
+    <string name="tv_calories_titre">Nombre total de calories:  </string>
+</resources>

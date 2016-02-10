@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#334">
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="0dp"
+              android:layout_weight="0.1"
+              android:text="@string/tv_repas"
+              android:gravity="center"
+              android:textSize="15dp"/>
+
+    <ListView android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="0.5"
+              android:id="@+id/listViewRepas">
+
+    </ListView>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="0.2"
+                  android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:text="@string/tv_calories_titre"
+                  android:textSize="15dp"
+                  android:id="@+id/tvNbCaloriesTitre"
+                  android:padding="5dp"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:background="#FFF"
+                  android:textColor="#666"
+                  android:layout_height="wrap_content"
+                  android:text="0"
+                  android:textSize="20dp"
+                  android:textStyle="bold"
+                  android:id="@+id/tvNbCalories"
+                  android:padding="5dp"/>
+
+    </LinearLayout>
+
+
+    <Button android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:text="@string/btn_save"
+            android:id="@+id/btnSave"
+            />
+
+</LinearLayout>
